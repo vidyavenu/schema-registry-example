@@ -5,7 +5,8 @@
      "version": "1",
      "fields": [
        { "name": "human_address", "type": "string", "doc": "Complete Address" },
-       { "name": "status", "type": "string", "doc": "Parking present or unoccupied" }
+       { "name": "status", "type": "string", "doc": "Parking present or unoccupied" },
+       { "name": "parking_id", "type": "string", "doc": "Parking ID" }
      ]
 }
 
