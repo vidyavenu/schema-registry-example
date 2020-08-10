@@ -14,7 +14,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 
 public class ProducerExample {
-    private static final String TOPIC = "parking-lot-3";
+    private static final String TOPIC = "parking-events";
 
     @SuppressWarnings("InfiniteLoopStatement")
     public static void main(final String[] args) {
